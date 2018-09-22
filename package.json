@@ -1,0 +1,38 @@
+{
+  "name": "marqeta",
+  "version": "1.0.0",
+  "description": "A node library to interact with the Marqeta API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaisonDeCode/marqeta.git"
+  },
+  "keywords": [
+    "Marqeta",
+    "API"
+  ],
+  "author": "Maison de Code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaisonDeCode/marqeta/issues"
+  },
+  "homepage": "https://github.com/MaisonDeCode/marqeta#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "random-user": "^2.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "got": "^9.2.0",
+    "request": "^2.88.0",
+    "request-json": "^0.6.3",
+    "save": "^2.3.2",
+    "superagent": "^3.8.3",
+    "superagent-jsonapify": "^1.4.5"
+  }
+}
